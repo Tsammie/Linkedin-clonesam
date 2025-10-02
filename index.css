@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: 1px solid yellow; */
+}
+
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 608px;
+}
+
+.container3 {
+    background-color: #f3f2f0;
+    padding: 100px;
+
+}
+
+.container7 {
+    background: #f3f2f0;
+    padding: 25px;
+}
+
+/* Nav-bar */
+body {
+    color: #333
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0a66c2;
+}
+
+.logo span {
+    color: #fff;
+    background: #0a66c2;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-outline {
+    padding: 8px 16px;
+    border: 1px solid #0a66c2;
+    border-radius: 20px;
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    background: #e8f3ff;
+}
+
+.btn-signin {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #0a66c2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+.section1-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.section1-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.section1-text button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-google {
+    background: #0a66c2;
+    color: #fff;
+    border: none;
+}
+
+.btn-microsoft {
+    background: #fff;
+    border: 1px solid #222;
+}
+
+.btn-email {
+    background: #fff;
+    border: 1px solid #222;
+}
+
+.agreement {
+    font-size: 12px;
+    color: #666;
+    margin-top: 12px;
+}
+
+.agreement a {
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+.new {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.new a {
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+.section1-illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.section1-illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.explore {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 60px 0;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.explore-left h2 {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.explore-left p {
+    font-size: 16px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tags span {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.post-job {
+    background: #fdf7f3;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 60px 0;
+}
+
+.post-job h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #b24020;
+    margin-bottom: 20px;
+}
+
+.btn-post-job {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1px solid #0a66c2;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0a66c2;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-post-job:hover {
+    background: #e8f3ff;
+}
+
+.discover,
+.games {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 60px 0;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.discover-left h2,
+.games-left h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.discover-left p,
+.games-left p {
+    font-size: 14px;
+    color: #555;
+}
+
+.discover .tags,
+.games .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tags span {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.tags span:hover {
+    background: #f3f2ef;
+    border-color: #999;
+}
+
+.tags .show-all {
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
+    font-weight: 500;
+}
+
+.tags .show-all:hover {
+    background: #e8f3ff;
+}
+
+.open-to-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: 60px auto;
+    border-radius: 8px;
+}
+
+.otw-left h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #b24020;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.otw-left p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.otw-right {
+    display: flex;
+    justify-content: center;
+}
+
+.otw-right img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+.linkedin-footer {
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto 30px;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-column h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin: 6px 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 13px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #0a66c2;
+    /* LinkedIn blue */
+}
+
+
+.footer-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+}
+
+.footer-bottom ul li {
+    margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-bottom ul li a:hover {
+    text-decoration: underline;
+    color: #0a66c2;
+}
+
+@media (max-width:992px) {
+    .nav-links {
+        display: none;
+    }
+
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section1-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .explore {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .tags {
+        justify-content: center;
+    }
+
+    .discover,
+    .games {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .discover .tags,
+    .games .tags {
+        justify-content: center;
+    }
+
+    .open-to-work {
+        grid-template-columns: 1fr;
+        /* stack */
+        text-align: center;
+    }
+
+    .otw-right img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .container3 {
+        position: relative;
+        top: 300px;
+        padding-block: 30px;
+    }
+
+    .container4 {
+        position: relative;
+        top: 300px;
+    }
+
+    .container5 {
+        position: relative;
+        top: 300px;
+    }
+
+    .container6 {
+        position: relative;
+        top: 300px;
+    }
+    .container7 {
+        position: relative;
+        top: 300px;
+    }
+    .container8 {
+        position: relative;
+        top: 300px;
+    }
+    .container9{
+        position: relative;
+        top: 300px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom ul {
+        justify-content: center;
+    }
+
+
+}
