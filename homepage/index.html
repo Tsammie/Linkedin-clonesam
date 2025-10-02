@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepagegan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<!-- Starting with a fixed navigation bar -->
+
+<body>
+    <div class="navbar-box">
+        <Section class="navbar">
+            <div class="navbar-left">
+                <!-- Linkedin's logo -->
+                <div class="logo">
+                   <a href="../SignIn/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/250px-LinkedIn_logo_initials.png"
+                        alt="Linkedin logo" width="41" height="41"></a>
+                </div>
+                <!-- The search bar beside the logo -->
+                <div class="length">
+                    <div class="search-bar">
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <!--The navbar icons with their labels -->
+                    <div class="item-box">
+                        <a href="../homepage/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-house"></i><span>Home</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <a href="../my-network/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-users"></i><span>My Network</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <a href="../job/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-briefcase"></i><span>Jobs</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <div class="nav-item"><i class="fa-solid fa-comment"></i><span>Messaging</span></div>
+                    </div>
+                    <div class="item-box">
+                        <div class="nav-item"><i class="fa-solid fa-bell"></i><span>Notifications</span></div>
+                    </div>
+                    <div class="item-box">
+                       <a href="../profile-page/index.html"><div class="nav-item profile"><img
+                                src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1761177600&v=beta&t=75wExxAbEFa2PmGcE0LsfD8UvwhziFjxrgNGYio9coo"
+                                alt="icon pics"><span>Me</span></div></a> 
+                    </div>
+                </div>
+            </div>
+        </Section>
+    </div>
+
+    <!-- The beginning of the main section, I am going to create a layout that I can use to make the three partition -->
+    <main class="layout">
+        <!-- starting from the left of the three partitions -->
+        <aside class="sidebar-left">
+            <!-- the left entails, number one: the profile card, a space for the profile viwers and impression, ad, and links -->
+            <div class="profile-card">
+                <!-- This is the profile card, It contains name, job description, location, place of work, profile picture and profile background picture -->
+                <div class="cover"></div>
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1761177600&v=beta&t=75wExxAbEFa2PmGcE0LsfD8UvwhziFjxrgNGYio9coo"
+                    alt="Profile" class="avatar">
+                <h2>Samuel Oritu Oreofe</h2>
+                <p class="title"> Data sciencist/Aerospace Engineering</p>
+                <p class="location"> Lagos, Nigeria</p>
+                <p class="link"> <img
+                        src="https://media.licdn.com/dms/image/v2/C4D0BAQHssaps1UEN4w/company-logo_100_100/company-logo_100_100/0/1630573450574?e=1761782400&v=beta&t=ZPS63TqbgKrtOHDO-ApZNJKr7x062fwfTHJavsNxcYw"
+                        alt="" class="job-image">SQI College of ICT</p>
+                </p>
+            </div>
+            <!-- this is the second card in the leftside of the webpage -->
+            <div class="sidebar-impression">
+                <!-- the section is for the side bar impression containing profive view and post impression -->
+                <div class="stats-card">
+                    <div class="stat-row">
+                        <span>Profile views:</span>
+                        <span class="stat-value">2890</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Post impression:</span>
+                        <span class="stat-value">7400</span>
+                    </div>
+                </div>
+            </div>
+            <!-- this is the ad section  -->
+            <div class="premium-card">
+                <p class="promo-text"> Boost your career with exclusive tools</p>
+                <a href="" class="premium-link">Try premium for NGN0</a>
+            </div>
+            <!-- this section is the sidebar links the links to groups and all -->
+            <div class="sidebar-links">
+                <a href="">Saved Items</a>
+                <a href="">Groups</a>
+                <a href="">Newsletters</a>
+                <a href="">Events</a>
+            </div>
+        </aside>
+        <section class="feed">
+            <div class="composer card">
+                <div class="composer-top">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1761177600&v=beta&t=75wExxAbEFa2PmGcE0LsfD8UvwhziFjxrgNGYio9coo"
+                        alt="" class="composer-avatar">
+                    <input type="text" placeholder="Start a post" class="composer-btn">
+                </div>
+                <div class="composer-actions">
+                    <button>📷 Photo</button>
+                    <button>🎥 Video</button>
+                    <button>📝 Write article</button>
+                </div>
+            </div>
+
+            <!-- posts -->
+            <div class="post card">
+                <div class="post-header">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFCwmW2BzQPpA/company-logo_100_100/B4DZbI.GO3G8Ac-/0/1747128447109/rite_click_digital_logo?e=1761177600&v=beta&t=iWdrhsAoQiHFLuXFn8q1H20qunYwIfJp7wgFd9-3O6w"
+                        alt="User" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">Samuel Oritu Oreofe</h3>
+                        <p class="post-meta"> Data sciencist/Aerospace Engineer * 1hr ago</p>
+                    </div>
+                </div>
+                <p class="post-text"> Regardless of your profession, without good character you won't go far. 💖</p>
+                <img src="https://zihulo.com/wp-content/uploads/2024/07/Make-money-with-Zihulo.png" alt="post media"
+                    class="post-media">
+                <div class="post-actions">
+                    <button>👍Like</button>
+                    <button>💬 Comment</button>
+                    <button> 🔁Repost</button>
+                    <button>✉️ Send</button>
+                </div>
+            </div>
+            <div class="post card">
+                <div class="post-header">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQE99kvx953shQ/profile-displayphoto-scale_100_100/B56ZjbeSKcHUAc-/0/1756028815018?e=1761782400&v=beta&t=DbxFXnx128QdVhNXNEawk92UYfSuW34hjLXiKk3YyAU"
+                        alt="User" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">Faridat Abdulsalam</h3>
+                        <p class="post-meta">Petroleum Engineer | Data Analyst | Henna ArtistPetroleum Engineer | Data
+                            Analyst | Henna Artist
+                            20h • Edited • </p>
+                    </div>
+                </div>
+                <p class="post-text"> I just started learning Data Analysis after my graduation and before heading off
+                    for NYSC.
+
+                    One of my first practice projects was building a Mobile Sales Performance Dashboard. Through it, I
+                    learned how to clean and prepare data, create visuals, and pull out insights that can actually guide
+                    decisions.
+
+                    Some of the things I explored in this project were:
+
+                    Sales trends over time, Revenue by sales channel and payment type, Customer demographics, Price
+                    distribution across different phone models.
+
+                    It’s still early days, but I’m glad to be building these skills step by step. Looking forward to
+                    learning more and taking on bigger projects.</p>
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQEbADym_V85Jw/feedshare-shrink_800/B56ZmAheJtJwAg-/0/1758797884666?e=1761782400&v=beta&t=l2x8HkPdMyGCWMk9tHNqbtSRYX9E7RewwSe27A7dvJU"
+                    alt="post media" class="post-media">
+                <div class="post-actions">
+                    <button>👍Like</button>
+                    <button>💬 Comment</button>
+                    <button> 🔁Repost</button>
+                    <button>✉️ Send</button>
+                </div>
+            </div>
+            <div class="post card">
+                <div class="post-header">
+                    <img src="https://media.licdn.com/dms/image/v2/C560BAQFVlSr0FUV1ow/company-logo_100_100/company-logo_100_100/0/1630637529600/standard_bank_corporate_and_investment_banking_logo?e=1761782400&v=beta&t=Fa-pcASWzk6D0Uda9eQlM7EbuZqeX8W4UCmlTiDY46s"
+                        alt="User" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">Standard Bank Corporate and Investment Banking</h3>
+                        <p class="post-meta"> 167,389 followers</p>
+                    </div>
+                </div>
+                <p class="post-text">See how Standard Bank CIB and Genser Energy are reshaping Ghana’s energy landscape
+                    sustainably. Watch Episode 2 of the Stories of Impact now</p>
+                <video src="../homepage/videos/SB_CIB_Ghana_30sec_1x1_Stanbic_664879mp4.mp4" class="post-media-video"
+                    alt="post media-video" autoplay muted></video>
+                <div class="post-actions">
+                    <button>👍Like</button>
+                    <button>💬 Comment</button>
+                    <button> 🔁Repost</button>
+                    <button>✉️ Send</button>
+                </div>
+            </div>
+            <div class="post card">
+                <div class="post-header">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEV2vPKKfb-hg/company-logo_100_100/company-logo_100_100/0/1683630527580/revvity_for_life_sciences_logo?e=1761782400&v=beta&t=6wsH-ZEdFhTblMzt2KWhLxg2U6P8vkY86ow16PalG1A"
+                        alt="User" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">Revvity for Life SciencesRevvity for Life Sciences</h3>
+                        <p class="post-meta"> 59,871 followers • 4d </p>
+                    </div>
+                </div>
+                <p class="post-text">Behind every breakthrough is a carefully crafted mosaic of solutions.
+                    At ESGCT 2025, Revvity brings:
+
+                    • Pin-point™ Base Editing for precision and safety
+                    • Cell-Vive™ GMP reagents for reliable bioprocessing
+                    • LabChip™ assays for streamlined QC
+                    • LentiBOOST™ technology for efficient viral delivery
+
+                    Together, they form a masterpiece — supporting your journey from discovery to delivery.
+
+                    📍 Booth C20 | Seville | October 7–10</p>
+                <video src="../homepage/videos/output_progressive_af3b6c9b-4b27-40d5-adbf-d7a7de59b6f4.mp4"
+                    class="post-media-video" alt="post media-video" autoplay></video>
+                <div class="post-actions">
+                    <button>👍Like</button>
+                    <button>💬 Comment</button>
+                    <button> 🔁Repost</button>
+                    <button>✉️ Send</button>
+                </div>
+            </div>
+            <div class="post card">
+                <div class="post-header">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHssaps1UEN4w/company-logo_100_100/company-logo_100_100/0/1630573450574?e=1761782400&v=beta&t=ZPS63TqbgKrtOHDO-ApZNJKr7x062fwfTHJavsNxcYw"
+                        alt="User" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">SQI College of ICT</h3>
+                        <p class="post-meta">4,097 followers • 1w </p>
+                    </div>
+                </div>
+                <p class="post-text"> Just 2 weeks ago, these students took their first step into tech with the
+                    Foundation Class, where they began mastering the core principles of programming.</p>
+                <img src="https://media.licdn.com/dms/image/v2/D4D22AQFAurvvMlZcag/feedshare-shrink_800/B4DZlOTbvkIYAg-/0/1757955424546?e=1761782400&v=beta&t=Nl4dX0yDK9KVNpSk2BdQyHVNNxoWRHiPDyl6EOsvYFY"
+                    alt="post media" class="post-media">
+                <div class="post-actions">
+                    <button>👍Like</button>
+                    <button>💬 Comment</button>
+                    <button> 🔁Repost</button>
+                    <button>✉️ Send</button>
+                </div>
+            </div>
+
+        </section>
+
+        <aside class="sidebar-right">
+            <div class="feed-suggestions card">
+                <h3>Add to your feed</h3>
+                <div class="suggestion">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQFzY-pDoBP7lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725891972989?e=1761782400&v=beta&t=figtm1tjufbZU61hYLv-RRAzsW9_mEPCv2Pp8HymUDo" alt="" class="suggest-avatar">
+                    <div>
+                        <p class="suggest-name">John Doe</p>
+                        <p class="suggest-role"> Software Engineer at Google</p>
+                        <button class="follow-btn"> + Follow</button>
+                    </div>
+                </div>
+                <div class="suggestion">
+                    <img src="https://media.licdn.com/dms/image/v2/D560BAQHpzXbqSyR74A/company-logo_100_100/B56ZT8EYB8HsAQ-/0/1739395793272/openai_logo?e=1760572800&v=beta&t=3EC3rajhUPRCB7bscdNmiTd8WD7wlywuMrW7uVcVaPo"
+                        alt="" class="suggest-avatar">
+                    <div>
+                        <p class="suggest-name">ChatGpt</p>
+                        <p class="suggest-role"> Artificial Intellgence</p>
+                        <button class="follow-btn"> + Follow</button>
+                    </div>
+                </div>
+                <a href="#" class="see-all"> See all Recommendations 👉</a>
+            </div>
+
+           <div class="card premium-ad">
+                <div class="ad-header">
+                    <span class="ad-label"> Ad</span>
+                    <button class="ad-menu">...</button>
+                </div>
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1761782400&v=beta&t=ma1btOnurd2RZmM8-GCj327knIpwJwbFozzlY8iVXUg"
+                    alt="Profile" class="premium-avatar">
+
+                <div class="premium-tag">
+                    <span class="gold-box"></span>Premium
+                </div>
+                <p class="premium-text">
+                    Increase your chances of getting hired by <strong>2.6x</strong>
+                </p>
+                <button class="premium-btn">Try for free</button>
+            </div>
+
+            <div class="sidebar-footer">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Privacy & Terms</a>
+                <a href="#">Ad Choices</a>
+                <a href="#">Business Services</a>
+                <a href="#">More</a>
+                <p>LinkedIn 2025</p>
+            </div>
+        </aside>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar-box">
+        <Section class="navbar">
+            <div class="navbar-left">
+                <!-- Linkedin's logo -->
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/250px-LinkedIn_logo_initials.png"
+                        alt="Linkedin logo" width="41" height="41">
+                </div>
+                <!-- The search bar beside the logo -->
+                <div class="length">
+                    <div class="search-bar">
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <!--The navbar icons with their labels -->
+                    <div class="item-box">
+                        <a href="../homepage/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-house"></i><span>Home</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <a href="../my-network/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-users"></i><span>My Network</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <a href="../job/index.html">
+                            <div class="nav-item"><i class="fa-solid fa-briefcase"></i><span>Jobs</span></div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <div class="nav-item"><i class="fa-solid fa-comment"></i><span>Messaging</span></div>
+                    </div>
+                    <div class="item-box">
+                        <div class="nav-item"><i class="fa-solid fa-bell"></i><span>Notifications</span></div>
+                    </div>
+                    <div class="item-box">
+                        <a href="../profile-page/index.html">
+                            <div class="nav-item profile"><img
+                                    src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1761177600&v=beta&t=75wExxAbEFa2PmGcE0LsfD8UvwhziFjxrgNGYio9coo"
+                                    alt="icon pics"><span>Me</span></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </Section>
+    </div>
+    <!-- This is the end of navigation bar -->
+
+    <main class="layout">
+        <!-- left column = profile content -->
+        <aside class="feed">
+            <!-- Cover picture and profile picture -->
+            <div class="card profile-header">
+                <!-- cover -->
+                <div class="cover-image">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D16AQH9Ah1jmoYyJQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1732538962586?e=1762387200&v=beta&t=VfQlfiVdGZVSxrxzWc1FeqI5__gd5Z4AUuf6OwnGLTQ"
+                        alt="Cover">
+                    <button class="edit-cover">Enhance Cover image</button>
+                </div>
+                <!-- Profile info -->
+                <div class="profile-main">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_200_200/B4DZf5jNINGkAc-/0/1752238446530?e=1762387200&v=beta&t=gjQcRDzhsReGdSZjHJj-cj5kIycPAjQFo3Gkh-mGSlw"
+                        alt="Profile" class="profile-photo">
+
+                    <h2>Samuel Oritu Oreofe
+                        <button class="verify-btn"> Add Verification badge</button>
+                    </h2>
+                    <p class="headline">GMNSE || Aeronautical & Astronautical Engineer || Data Analyst|| Data
+                        Scientist|| Machine learning Engineer|| Leader ✨</p>
+
+                    <p class="location"> Lagos, Lagos State, Nigeria. <a href="">Contact info</a></p>
+                    <p class="connections"> 10k connections</p>
+
+                    <!-- Education aligned to the right -->
+                    <div class="education">
+                        <p>SQI College of ICT</p>
+                        <p>Kwara State University, Malete</p>
+                    </div>
+
+                    <!-- action buttons -->
+                    <div class="profile-actions">
+                        <button class="open-to">Open to</button>
+                        <button class="add-section"> Add Profile Section</button>
+                        <button class="enhance"> Enhance profile</button>
+                        <button class="resources"> Resources</button>
+                    </div>
+                </div>
+                <!-- last part in the card -->
+                <div class="extra-info">
+                    <div class="open-to-work">
+                        <h4>Open to work</h4>
+                        <p> Data Analyst, Data entry Specialist and Data Annotator</p>
+                        <a href="">Show details</a>
+                    </div>
+                    <div class="hiring">
+                        <p> <strong>Share that you're hiring</strong> and attract qualified candidates.</p>
+                        <a href="">Get started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- analytics card -->
+            <div class="card analytics-card">
+                <div class="analytics-header">
+                    <h3>Analytics</h3>
+                    <span class="private"> Private to you</span>
+                </div>
+
+                <div class="analytics-grid">
+                    <!-- profile views -->
+                    <div class="analytics-item">
+                        <div class="icon"></div>
+                        <div>
+                            <p class="value">47</p>
+                            <p class="label">Profile views</p>
+                            <span class="hint"> Discover who's viewed your profile</span>
+                        </div>
+                    </div>
+                    <!-- Post Impressions -->
+                    <div class="analytics-item">
+                        <div class="icon"></div>
+                        <div>
+                            <p class="value">171</p>
+                            <p class="label"> Post immpressions</p>
+                            <span class="hint"> Check out who's engaging with your posts. <br><small>past 7
+                                    days</small></span>
+                        </div>
+                    </div>
+                    <!-- search appearances -->
+                    <div class="analytics-item">
+                        <div class="icon"></div>
+                        <div>
+                            <p class="value">3</p>
+                            <p class="label"> Search appearaces</p>
+                            <span class="hint"> See how often you appear in search results.</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="see-all">Show all analytics</a>
+            </div>
+            <!-- About Card -->
+            <div class="card about-card">
+                <div class="about-header">
+                    <h3>About</h3>
+                    <button class="edit-btn">✎</button>
+                </div>
+
+                <div class="about-text">
+                    <p>
+                        I'm someone who takes real pride in growth; both in where I've come from and where I'm heading.
+                    </p>
+                    <p>
+                        I started out in Aerospace Engineering, where I learned how to think critically, solve complex
+                        problems, and stay curious.
+                        That foundation has shaped the way I work today as a Data Analyst.
+                    </p>
+                    <p>
+                        Now, I spend my time making sense of data: cleaning it, analyzing it, and turning it into
+                        insights people can actually use.
+                        I've built reporting tools that save hours of work, visualized performance trends for schools,
+                        and helped teams make faster, smarter decisions.
+                    </p>
+                    <p>
+                        The part I'm most proud of? I've been learning as I go; and growing fast. Each project gives me
+                        more confidence,
+                        and each challenge pushes me closer to where I want to be: a future in data science and machine
+                        learning.
+                    </p>
+                    <p>
+                        This is just the beginning, and I'm excited for what's next.
+                        Feel free to connect or reach out if you're into data, tech, or just love solving problems.
+                    </p>
+                </div>
+            </div>
+            <!-- ACTIVITY -->
+            <div class="card activity-card">
+                <!-- Header -->
+                <div class="activity-header">
+                    <div>
+                        <h3>Activity</h3>
+                        <span class="followers">134 followers</span>
+                    </div>
+                    <a href="#" class="btn-outline">Create a post</a>
+                </div>
+
+                <!-- Tabs (CSS-only) -->
+                <div class="activity-tabs-wrap">
+                    <div class="activity-tabs">
+                        <input type="radio" name="act" id="act-posts" checked>
+                        <label for="act-posts">Posts</label>
+
+                        <input type="radio" name="act" id="act-comments">
+                        <label for="act-comments">Comments</label>
+
+                        <input type="radio" name="act" id="act-images">
+                        <label for="act-images">Images</label>
+
+                        <input type="radio" name="act" id="act-docs">
+                        <label for="act-docs">Documents</label>
+                    </div>
+
+                    <!-- Panels -->
+                    <div class="activity-content">
+                        <!-- POSTS panel -->
+                        <section class="panel panel-posts">
+                            <div class="activity-grid">
+                                <!-- Post A (text) -->
+                                <article class="post">
+                                    <header class="post-header">
+                                        <div class="ph-left">
+                                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1762387200&v=beta&t=vse6cxz7m7nR0TUlrsJZzMRv1qWmwmilnK9i7eg8E2w"
+                                                class="ph-avatar" alt="">
+                                            <div>
+                                                <p class="ph-name">Samuel Oreofe Oritu · <span class="you">You</span>
+                                                </p>
+                                                <p class="ph-sub">GMNSE | Aeronautical & Astronautical Eng…</p>
+                                                <p class="ph-meta">1w · 🌐</p>
+                                            </div>
+                                        </div>
+                                        <button class="more"></button>
+                                    </header>
+
+                                    <div class="post-body">
+                                        <p class="post-text">
+                                            😅 Confession: I almost gave up when I started HTML &amp; CSS.
+                                            After months of personal study in Data Science…
+                                            <a href="#" class="more-link">more</a>
+                                        </p>
+                                    </div>
+                                    <figure class="post-media">
+                                        <img src="https://media.licdn.com/dms/image/v2/D4D22AQFs2i6Dy29HcQ/feedshare-shrink_800/B4DZlHDSAvJEAk-/0/1757833672770?e=1762387200&v=beta&t=UyQddhBEXIPrd-UiyXGLkZsIGnS_U_64W-t0VAwVapE"
+                                            alt="">
+                                    </figure>
+
+                                    <div class="post-stats">
+                                        <span>👍 7</span>
+                                        <span>1 comment</span>
+                                    </div>
+
+                                    <div class="post-actions">
+                                        <button>👍 Like</button>
+                                        <button>💬 Comment</button>
+                                        <button>🔁 Repost</button>
+                                        <button>✉️ Send</button>
+                                    </div>
+                                </article>
+
+                                <!-- Post B (image with pager badge) -->
+                                <article class="post">
+                                    <header class="post-header">
+                                        <div class="ph-left">
+                                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_SEJQtgfeFg/profile-displayphoto-scale_100_100/B4DZf5jNINGkAg-/0/1752238446530?e=1762387200&v=beta&t=vse6cxz7m7nR0TUlrsJZzMRv1qWmwmilnK9i7eg8E2w"
+                                                class="ph-avatar" alt="">
+                                            <div>
+                                                <p class="ph-name">Samuel Oreofe Oritu · <span class="you">You</span>
+                                                </p>
+                                                <p class="ph-sub">GMNSE | Aeronautical & Astronautical Eng…</p>
+                                                <p class="ph-meta">2w · 🌐</p>
+                                            </div>
+                                        </div>
+                                        <button class="more">...</button>
+                                    </header>
+
+                                    <div class="post-body">
+                                        <p class="post-text">
+                                            From Aeronautical & Astronautical Engineering graduate to Tech…
+                                            <a href="#" class="more-link">more</a>
+                                        </p>
+
+                                        <figure class="post-media">
+                                            <img src="https://media.licdn.com/dms/image/v2/D4D22AQFs2i6Dy29HcQ/feedshare-shrink_800/B4DZlHDSAvJEAk-/0/1757833672770?e=1762387200&v=beta&t=UyQddhBEXIPrd-UiyXGLkZsIGnS_U_64W-t0VAwVapE"
+                                                alt="">
+                                        </figure>
+                                    </div>
+
+                                    <div class="post-stats">
+                                        <span>👍 57</span>
+                                        <span>11 comments • 3 reposts</span>
+                                    </div>
+
+                                    <div class="post-actions">
+                                        <button>👍 Like</button>
+                                        <button>💬 Comment</button>
+                                        <button>🔁 Repost</button>
+                                        <button>✉️ Send</button>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <a href="#" class="see-all center">Show all posts →</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- EXPERIENCE -->
+            <div class="card experience-card">
+                <div class="section-header">
+                    <h3>Experience</h3>
+                    <div class="actions">
+                        <button class="add-btn">＋</button>
+                        <button class="edit-btn">✎</button>
+                    </div>
+                </div>
+
+                <!-- Job 1 -->
+                <div class="experience-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHssaps1UEN4w/company-logo_100_100/company-logo_100_100/0/1630573450574?e=1762387200&v=beta&t=f4bWmOF-tzlBHi0jUKT1glW55365Dd38bJEoyoBP6hs"
+                        alt="SQI" class="exp-logo">
+                    <div class="exp-info">
+                        <h4>Data Scientist</h4>
+                        <p class="company">SQI College of ICT · Internship</p>
+                        <p class="dates">Jul 2025 – Present · 3 mos</p>
+                        <p class="location">Ibadan North East, Oyo State, Nigeria · On-site</p>
+                        <p class="skills">🛠️ Python (Programming Language)</p>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="experience-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFiKBb3HOiIlQ/company-logo_100_100/company-logo_100_100/0/1630636238011?e=1762387200&v=beta&t=nCEw-7CtaTcRel1JXHe9TnDc53eG3gAImIr5rNp9m_E"
+                        alt="Aerospace" class="exp-logo">
+                    <div class="exp-info">
+                        <h4>Aerospace Engineer</h4>
+                        <p class="company">Association of Aerospace Engineering Students, KWASU</p>
+                        <p class="dates">Sep 2019 – Sep 2025 · 6 yrs 1 mo</p>
+                        <p class="skills">🛠️ Management, MATLAB, and +1 skill</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="card education-card">
+                <div class="section-header">
+                    <h3>Education</h3>
+                    <div class="actions">
+                        <button class="add-btn">＋</button>
+                        <button class="edit-btn">✎</button>
+                    </div>
+                </div>
+
+                <!-- School -->
+                <div class="education-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C560BAQFK5BvUIm9ysA/company-logo_100_100/company-logo_100_100/0/1630622685968?e=1762387200&v=beta&t=r8qYt80cSq2rA6Q9d84jlBPbQRaadl9a7vD2p8cMSdY"
+                        alt="KWASU" class="edu-logo">
+                    <div class="edu-info">
+                        <h4>KWARA STATE UNIVERSITY, MALETE</h4>
+                        <p class="degree">Bachelor of Engineering – BEng, Aerospace, Aeronautical and Astronautical
+                            Engineering</p>
+                        <p class="dates">Sep 2019 – Aug 2024</p>
+                        <p class="grade">Jesus did</p>
+                        <p class="activities">
+                            Activities and societies: KWASU Student Electoral Committee (ESEC),
+                            KWASU Engineering Student Electoral Committee (ESEC), Association of Aerospace Engineering
+                            Students,
+                            KWASU Senate, …<a href="#" class="more-link">see more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- INTERESTS -->
+            <div class="card interests-card">
+                <!-- Tabs -->
+                <div class="interests-tabs">
+                    <a href="#" class="active">Top Voices</a>
+                    <a href="#">Companies</a>
+                    <a href="#">Groups</a>
+                    <a href="#">Newsletters</a>
+                    <a href="#">Schools</a>
+                </div>
+
+                <div class="interests-grid">
+
+                    <div class="interest-item">
+                        <img src="https://media.licdn.com/dms/image/v2/C5603AQHTHXvyMAlPnw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1655493168617?e=1762387200&v=beta&t=JFUjYKRizomyw3r8onaUYK3u4nglyn71XQikMwhjK48"
+                            alt="Anima Anandkumar" class="interest-avatar">
+                        <div class="interest-info">
+                            <p class="name">Anima Anandkumar <span class="badge">in</span> · 3rd</p>
+                            <p class="desc">
+                                AI+Science Trailblazer, AI Pioneer Professor at Caltech,
+                                Time 100 Impact Award. Former Senior Director of AI at NVIDIA;
+                                Former Principal Scientist at AWS AI.
+                            </p>
+                            <p class="followers">217,990 followers</p>
+                            <button class="btn-following">✓ Following</button>
+                        </div>
+                    </div>
+
+                    <div class="interest-item">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQHB08s3BgoH4g/profile-displayphoto-scale_100_100/B56ZjoTiDkIAAc-/0/1756244091580?e=1762387200&v=beta&t=0qft5bpq71Bt0rfsB5vcuHYB4KdcAEKl3PrV_kK3Tng"
+                            alt="Nitin Aggarwal" class="interest-avatar">
+                        <div class="interest-info">
+                            <p class="name">Nitin Aggarwal <span class="badge">in</span> · 3rd</p>
+                            <p class="desc">Senior Director, Generative AI at Microsoft</p>
+                            <p class="followers">124,551 followers</p>
+                            <button class="btn-following">✓ Following</button>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="see-all center">Show all Top Voices →</a>
+            </div>
+            <footer class="footer">
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Privacy & Terms ▼</a>
+                        <a href="#">Ad Choices</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Business Services ▼</a>
+                        <a href="#">Get the LinkedIn app</a>
+                        <a href="#">More</a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#">Professional Community Policies</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Ad Choices</a>
+                        <a href="#">Mobile</a>
+                        <a href="#">Small Business</a>
+                    </div>
+
+                    <div class="footer-copy">
+                        <span>LinkedIn Corporation © 2025</span>
+                    </div>
+                </footer>
+        </aside>
+        <aside class=""></aside>
+    </main>
+</body>
+
+</html>
